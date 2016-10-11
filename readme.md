@@ -16,4 +16,4 @@ Estas son las indicaciones del ejercicio:
 
 	* Crear una elemento img y cambiar su atributo 'src'.
 
-	*Agregar la imagen al link usando appendChild.
+	* Agregar la imagen al link usando appendChild.
