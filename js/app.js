@@ -1,5 +1,4 @@
-window.addEventListener("load", iniciar);
-function iniciar(){
+var iniciar = function(){
 	var link = document.querySelectorAll(".span3 ul li a");
 	for(var i = 0; i < link.length; i++){
 		var url = link[i].getAttribute("href");
@@ -9,3 +8,4 @@ function iniciar(){
 		link[i].appendChild(imagen)
 	}
 }
+window.addEventListener("load", iniciar);
